@@ -19,8 +19,10 @@ Now we can access and assign value of each index.
 
 ### Randomization
 
+numbers = \[1,2,3,4,5,6,7,8,9] # **Remember this!!**
+
 The possible numbers are from 1 to 9.
-So, we use random.shuffle(numbers) to shuffle the numbers
+So, we use random.shuffle(numbers) to shuffle the numbers. Once we randomize, the numbers might become for example : \[5,4,7,6,8,9,3,1,2].
 
 ### Reshaping
 
@@ -52,7 +54,10 @@ This package returns a 9x9 matrix from 3x3x3x3 matricx after reshaping for us to
 ![](arrangement.png)
 
 The numbers \[1,2,3] are rotated for every outer row. Red, Green, and Blue boxes show the inner rotation.
-The placement of \[4,5,6] changed, i.e, outer rotated to change its occurance in the outer column, which I've denoted by underlining.
+The placement of \[4,5,6] changed, i.e, outer rotated to change its occurance in the outer column, which I've denoted by underlining. 
 
+**To generate a new sudoku, randomize the numbers\[] list, and Voila! We'll get a completely new random sudoku**
+
+**Hope you enjoyed this**
 
 # Thank You
