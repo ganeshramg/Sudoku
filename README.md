@@ -4,4 +4,4 @@ The sudoku game
 
 ## SudokuGenerator.py
 
-![]('sudokugrid.png')
+![](sudokugrid.png)
