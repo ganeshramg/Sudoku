@@ -47,4 +47,12 @@ By this method, the numbers list that we created in the first step alone needs t
 ### Function return
 This package returns a 9x9 matrix from 3x3x3x3 matricx after reshaping for us to easily access it using \[m]\[n] indexing.
 
+#### Arrangement
+
+![](arrangement.png)
+
+The numbers \[1,2,3] are rotated for every outer row. Red, Green, and Blue boxes show the inner rotation.
+The placement of \[4,5,6] changed, i.e, outer rotated to change its occurance in the outer column, which I've denoted by underlining.
+
+
 # Thank You
