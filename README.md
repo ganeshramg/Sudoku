@@ -6,7 +6,7 @@ The sudoku game
 
 ![](sudokugrid.png)
 
-The Sudoku grid consists of 9 outer boxes and each outer box consists of 9 inner boxes. Sudoku contains 81 inner boxes in total, and can be filled with numbers from 1 to 9 such that, no number gets repeated inside an outer box, in the row and in the column. So, to generate a random sudoku everytime, I considered the below arrangement. __The red rectangle__ is the row0 of the three outer rows and __the green vertical rectangle__ is the col0 of the three outer columns. __The small red rectangle__ is the row0 of the three inner rows and __the green square__ is the col0 if the inner columns. So every element in the sudoku can be represented of the form **sudoku\[ROW][COL]\[row][col]**  This is a 3x3x3x3 matrix.
+The Sudoku grid consists of 9 outer boxes and each outer box consists of 9 inner boxes. Sudoku contains 81 inner boxes in total, and can be filled with numbers from 1 to 9 such that, no number gets repeated inside an outer box, in the row and in the column. So, to generate a random sudoku everytime, I considered the above arrangement. __The red rectangle__ is the row0 of the three outer rows and __the green vertical rectangle__ is the col0 of the three outer columns. __The small red rectangle__ is the row0 of the three inner rows and __the green square__ is the col0 if the inner columns. So every element in the sudoku can be represented of the form **sudoku\[ROW][COL]\[row][col]**  This is a 3x3x3x3 matrix.
 
 ## Initialization, Randomization, Reshaping, Rotation and Arrangement
 
@@ -35,7 +35,7 @@ If the list is **\[\[5,6,4],\[8,9,7],\[2,3,1]]**
 **after inner rotation** the list becomes : 
 **\[\[4,5,6],\[7,8,9],\[1,2,3]]**
 **after outer rotation** the list becomes : 
-**\[\[1,2,3],\[4,5,6],\[7,8,9]]**
+**\[\[1,2,3],\[4,5,6],\[7,8,9]]**. The last element becomes the first element by rotating.
 
 ### Arrangement
 We fill the elements horizontally, i.e, first ROW0,COL0,row0,col0 gets filled and so on till col2 in first iteration, then the second outer column, i.e, COL1 is filled and so on till COL2,row0,col2 is filled. Now comes the second row, i.e, row2. In  this way all the 81 elements will arranged horizontally.
