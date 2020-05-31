@@ -42,5 +42,9 @@ We fill the elements horizontally, i.e, first ROW0,COL0,row0,col0 gets filled an
 
 But during assignment, whenever there is a change in the outer row, the numbers list is **InnerRotated** once and whenver there is change in inner row, the numbers list is **OuterRotated** once. In this way, no element will get repeated both inside the box and also in the row or column.
 
+By this method, the numbers list that we created in the first step alone needs to be shuffled, and then the same is reshaped, rotated and arranged horizontally.
+
+### Function return
+This package returns a 9x9 matrix from 3x3x3x3 matricx after reshaping for us to easily access it using \[m]\[n] indexing.
 
 # Thank You
