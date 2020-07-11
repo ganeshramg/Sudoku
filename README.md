@@ -60,4 +60,4 @@ The placement of \[4,5,6] changed, i.e, outer rotated to change its occurance in
 
 **Hope you enjoyed this**
 
-# Thank You
+# Thank You!
